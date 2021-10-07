@@ -11058,7 +11058,7 @@ h5,
 
 @media (max-width: 991.98px) {
     .ftco-navbar-light {
-        background: #19692c !important;
+        background: #202020 !important;
         position: relative;
         top: 0;
         padding: 10px 15px;
@@ -11906,7 +11906,7 @@ h5,
 
 .services-2 .icon span {
     font-size: 50px;
-    color: #19692c;
+    color: #3A4F6E;
 }
 
 .services-2 h3 {
@@ -11915,7 +11915,7 @@ h5,
 }
 
 .services-2:hover {
-    background: #19692c;
+    background: #3A4F6E;
     -webkit-box-shadow: 0px 0px 27px -16px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 27px -16px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 27px -16px rgba(0, 0, 0, 0.75);
