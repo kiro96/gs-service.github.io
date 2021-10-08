@@ -11320,7 +11320,7 @@ h5,
     background: -o-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
     background: -ms-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
     background: -webkit-gradient(linear, left top, right top, from(#1566ad), to(#1b9de3));
-    background: linear-gradient(to right, #46ec98 0%, #0c1d14 100%);
+    background: linear-gradient(to right, #7F7F7F 0%, #202020 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1566ad', endColorstr='#1b9de3', GradientType=1);
 }
 
@@ -11840,7 +11840,7 @@ h5,
 
 .services .icon span {
     font-size: 50px;
-    color: #394E6D;
+    color: #7F7F7F;
 }
 
 @media (max-width: 767.98px) {
@@ -11852,12 +11852,12 @@ h5,
 .services .media-body h3 {
     font-weight: 700;
     font-size: 20px;
-    color: #233e62;
+    color: #202020;
 }
 
 .services.active,
 .services:hover {
-    background: #394E6D;
+    background: #7F7F7F;
 }
 
 .services.active .icon span,
@@ -12268,7 +12268,7 @@ textarea.form-control {
 }
 
 .ftco-section {
-    padding: 7em 0;
+    padding: 4em 0;
     position: relative;
 }
 
@@ -13657,4 +13657,49 @@ p.informacion {
 
 div.seccion:hover div.informacion {
     height: 180px;
+}
+
+
+/*==============
+Seguridad de la informacion
+=================*/
+
+
+/* List with bullets */
+
+.list-bullets {
+    list-style: none;
+}
+
+.list-bullets li {
+    display: flex;
+    align-items: center;
+}
+
+.list-bullets li::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #202020;
+    border: 2px solid #929396;
+    display: block;
+    margin-right: 1rem;
+}
+
+
+/* Unordered list with custom numbers style */
+
+ol.custom-numbers {
+    list-style: none;
+}
+
+ol.custom-numbers li {
+    counter-increment: my-awesome-counter;
+}
+
+ol.custom-numbers li::before {
+    content: counter(my-awesome-counter) ". ";
+    color: #050708;
+    font-weight: bold;
 }
